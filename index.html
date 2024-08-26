@@ -19,9 +19,9 @@
     <div class="navbar container mx-auto mt-8">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+          <div class="dropdown float-right">
+            <div tabindex="0" role="button" class="btn btn-ghost text-right lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
@@ -34,7 +34,7 @@
               <li><a>Contact Us</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-[30px] font-bold text-black"><img class="w-10 h-10" src="assets/arrow.png"
+          <a class="btn text-left btn-ghost text-[30px] font-bold text-black"><img class="w-10 h-10" src="assets/arrow.png"
               alt="" />Rinterio</a>
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -46,8 +46,8 @@
             <li><a>Contact Us</a></li>
           </ul>
         </div>
-        <div class="navbar-end gap-5">
-          <a class="w-10 hover:w-11"><img src="assets/search.png" alt="" /></a>
+        <div class="navbar-end hidden sm:flex gap-5">
+          <a class=" w-10 hover:w-11"><img src="assets/search.png" alt="" /></a>
           <a class="w-10 hover:w-11"><img src="assets/cart.png" alt="" /></a>
           <a class="btn bg-lime-300 rounded-full"><button class="flex gap-2 items-center">
               <h1 class="text-black font-bold text-[14px]">Book Consult</h1>
@@ -60,7 +60,7 @@
     </div>
     <div class="container bg-white mx-auto">
       <img class="mx-auto mt-12" src="assets/banner.png" alt="" />
-      <h1 class="text-6xl font-bold text-center text-black mt-8 leading-[4rem]">
+      <h1 class="text-3xl sm:text-6xl font-bold text-center text-black mt-8  leading-[30px] sm:leading-[4rem]">
         A barn house of this design has a <br />striking appearance
       </h1>
       <p class="text-center mt-10 text-[15px]">
@@ -82,36 +82,36 @@
   <main>
     <!-- about us section starts here -->
     <div class="bg-gray-100">
-      <div class="container flex mx-auto justify-around">
+      <div class="container text-center sm:text-start flex flex-col sm:flex-row mt-20 mx-auto justify-around">
         <div class="">
           <div class="mt-14">
-            <img class="relative -left-[12%] mb-4" src="assets/Vector.png" alt="">
+            <img class="relative hidden lg:block -left-[12%] mb-4" src="assets/Vector.png" alt="">
 
-            <a class="btn bg-white rounded-full">
-              <button class="flex gap-2 items-center">
+            <a class="btn bg-white text-center  rounded-full">
+              <button class="flex  gap-2 items-center">
                 <div class="rounded-full p-1 rounded text-black">
                   <span class="material-symbols-outlined">
                     trending_flat
                   </span>
                 </div>
 
-                <h1 class="text-black text-[16px]">About Us</h1>
+                <h1 class="text-black  text-[16px]">About Us</h1>
               </button>
             </a>
           </div>
-          <h1 class="text-4xl mt-8 text-black font-extrabold">
+          <h1 class="text-xl sm:text-4xl mt-8 text-black font-extrabold">
             We Design Thoughtful,<br />
             liveable spaces
           </h1>
-          <p class="mt-8">
+          <p class="mt-8 text-[12px] sm:text-[16px]">
             The barn house captivates with its blend of rustinc charm and
             <br />
             modern sophistication, featuring weathered wood, sleek metal
             accents
           </p>
-          <div class="flex bg-white rounded-2xl mt-10 p-8 ">
-            <div class="mr-10">
-              <img src="assets/commercial.png" alt="" />
+          <div class="flex w-[95%] sm:w-[100%] mx-auto bg-white rounded-2xl mt-10 p-8 ">
+            <div class="mr-10 ">
+              <img class="" src="assets/commercial.png" alt="" />
             </div>
             <div class="">
               <h1 class="font-bold text-xl">Commercial</h1>
@@ -121,7 +121,7 @@
               </p>
             </div>
           </div>
-          <div class="flex bg-white rounded-2xl mt-3 p-8">
+          <div class="flex w-[95%] sm:w-[100%] mx-auto bg-white rounded-2xl mt-3 p-8">
             <div class="mr-10">
               <img src="assets/residential.png" alt="" />
             </div>
@@ -135,11 +135,11 @@
           </div>
         </div>
 
-        <div class="py-16 px-5 text-center">
+        <div class="py-16 px-5 mt-16 text-center">
           <img src="assets/Rectangle.png" alt="" />
         </div>
       </div>
-      <div class="container w-[80%] mx-auto mt-24 flex flex-col sm:flex-row justify-around sm:flex-row bg-white p-10 text-center rounded-3xl">
+      <div class="container w-[80%] mx-auto mt-24 gap-10 sm:gap-0 flex flex-col sm:flex-row justify-around bg-white p-10 text-center rounded-3xl">
         <div>
           <div>
             <span class="material-symbols-outlined text-7xl">
@@ -213,7 +213,7 @@
         <p class="text-black">The barn house captivates with its blend of rustic charm and modern sophistication,<br>
           featuring weathered wood, sleek metal accents.</p>
       </div>
-      <div class="container w-[80%] mx-auto flex flex-col sm:flex-row justify-between  p-10 text-center rounded-3xl">
+      <div class="container w-[100%] sm:w-[80%] mx-auto flex flex-col sm:flex-row justify-between gap-10 sm:gap-0 p-10 text-center rounded-3xl">
         <div class="bg-pink-200 rounded-2xl p-10 text-left">
           <img src="assets/concept.png" alt="">
           <h1 class="text-2xl font-bold my-3">Concept</h1>
@@ -268,57 +268,66 @@
         feturing weathered wood, sleek metal accents.</p>
 
       <!-- begining of grid section -->
-      <div class="container mx-auto grid grid-cols-12 grid-rows-2 gap-8 py-18 text-center ">
+      <div class="container mx-auto flex flex-col sm:grid sm:grid-cols-12 sm:grid-rows-2 gap-5 py-18 text-center ">
 
 
-        <div class="col-span-8 p-5 border-2 border-black-100 rounded-2xl flex gap-8 h-[100%] items-center">
+        <div class=" w-[90%] sm:w-[100%] mx-auto sm:col-span-8 p-3 sm:p-5 border-2 border-black-100 rounded-2xl flex flex-col sm:flex-row gap-7 sm:h-[100%] items-center">
           <div>
             <img src="assets/img1.png" alt="" class="w-[100%] ">
           </div>
           <div>
-            <h1 class="text-start text-2xl font-bold mb-4">Commercial</h1>
-            <p class="text-start mb-4 text-2xl text-gray-500">The barn house captivates with its blend of rustic charm
+            <h1 class="text-start text-2xl sm:text-2xl font-bold mb-4">Commercial</h1>
+            <p class="text-start mb-4 text-sm sm:text-2xl text-gray-500">The barn house captivates with its blend of rustic charm
               <br>
               and modern. The barn house captivates with its blend of <br>
               rustic charm and modern .
             </p>
-            <h1 class="text-start text-[19px] font-bold text-gray-900">View Details
-              <span class="rounded-full bg-lime-300 px-2 py-1 rounded text-gray-900">
+            <h1 class="text-start text-16px sm:text-[19px] font-bold text-gray-900">View Details
+              <span class="rounded-full bg-lime-300 px-2 py-2 sm:px-2 sm:py-1 rounded text-gray-900">
                 <span class="material-symbols-outlined text-xl"> north_east </span>
               </span>
             </h1>
           </div>
         </div>
-        <div class="col-span-4 p-5 border-2 border-black-100 rounded-2xl  ">
+        <div class="w-[90%] sm:w-[100%] mx-auto sm:col-span-4 p-5 border-2 border-black-100 rounded-2xl  ">
           <div class="">
             <img src="assets/img2.png" alt="" class="w-full">
           </div>
         </div>
 
-        <div class="col-span-3 p-5 border-2 border-black-100 rounded-2xl  gap-8">
+        <div class="w-[90%] sm:w-[100%] mx-auto sm:col-span-3 p-5 sm:hidden border-2 border-black-100 rounded-2xl  gap-8">
+          <div>
+            <img src="assets/img5.png" alt="" class="w-[100%]">
+          </div>
+
+        </div>       
+
+        <div class="w-[90%] sm:w-[100%] mx-auto sm:col-span-3 p-5 border-2 border-black-100 rounded-2xl  gap-8">
           <div>
             <img src="assets/img3.png" alt="" class="w-[100%]">
           </div>
 
         </div>
 
-        <div class="col-span-6 p-5 border-2 border-black-100 rounded-2xl flex gap-5 items-center">
+        <div class="w-[90%] sm:w-[100%] mx-auto sm:col-span-6 p-5 border-2 border-black-100 rounded-2xl flex flex-col sm:flex-row gap-5 items-center">
           <div class="flex-1 ">
             <img src="assets/img4.png" alt="" class="w-[100%]">
           </div>
           <div class="flex-1">
-            <h1 class="text-start text-2xl font-bold mb-4">Commercial</h1>
-            <p class="text-start mb-4 text-2xl text-gray-500">The barn house captivates with <br>
-              its blend of rustic charm <br>
-              and modern.
-            <h1 class="text-start text-[19px] font-bold text-gray-900">View Details
-              <span class="rounded-full bg-lime-300 px-2 py-1 rounded text-gray-900">
+            <h1 class="text-start text-2xl sm:text-2xl font-bold mb-4">Commercial</h1>
+            <p class="text-start mb-4 text-sm sm:text-2xl text-gray-500">The barn house captivates with its blend of rustic charm
+              <br>
+              and modern. The barn house captivates with its blend of <br>
+              rustic charm and modern .
+            </p>
+            <h1 class="text-start text-16px sm:text-[19px] font-bold text-gray-900">View Details
+              <span class="rounded-full bg-lime-300 px-2 py-2 sm:px-2 sm:py-1 rounded text-gray-900">
                 <span class="material-symbols-outlined text-xl"> north_east </span>
               </span>
             </h1>
           </div>
         </div>
-        <div class="col-span-3 p-5 border-2 border-black-100 rounded-2xl  gap-8">
+        <div class="w-[90%] sm:w-[100%] mx-auto sm:col-span-3 p-5 border-2 border-black-100 rounded-2xl  gap-8">
           <div>
             <img src="assets/img5.png" alt="" class="w-[100%]">
           </div>
@@ -334,7 +343,7 @@
     <!-- end of latest portfolio section -->
 
     <!-- start of articles and news section -->
-    <div class="pt-6 pb-20 bg-gray-100">
+    <div class=" sm:pt-6 pb-20 bg-gray-100">
       <div class="container mx-auto text-center pt-20 ">
         <div>
           <a class="btn bg-lime-200 rounded-full">
@@ -351,13 +360,13 @@
         </div>
 
         <div class="my-24">
-          <h1 class="text-5xl my-14 font-bold text-black">Read Our Articles and News</h1>
-          <p class="text-xl text-black-300 ">The barn house captivates with its blend of rustic charm and modern
+          <h1 class="text-3xl sm:text-5xl my-14 font-bold text-black">Read Our Articles and News</h1>
+          <p class="text-sm sm:text-xl text-black-300 ">The barn house captivates with its blend of rustic charm and modern
             sophistication, <br>
             featuring weathered wood, sleek metal accents.</p>
         </div>
 
-        <div class="flex flex-col sm:flex-row container justify-around gap-5">
+        <div class="w-[85%] mx-auto flex flex-col sm:flex-row container justify-around gap-5">
 
           <div class="p-5 border-2 bg-white rounded-2xl">
             <div><img src="assets/article1.png" alt="">
@@ -507,14 +516,14 @@
 
     <!-- begining of Partenership Section -->
     <div class="pt-6 pb-20 bg-gray-100 ">
-      <div class="container mx-auto text-center pt-20 flex justify-around">
+      <div class="container mx-auto text-center pt-20 flex flex-col gap-y-16  sm:flex-row justify-around">
         <div class="flex-1"><img src="assets/partnerbg.svg"  alt="">
         </div>
         <div class="flex-1">
-          <h1 class="flex-1 font-bold text-black text-3xl text-start pl-24">Let's Be <span class="text-red-500">Partner</span> with <span class="text-red-500">Rinterio</span></h1>
-          <p class="text-start my-4 flex-1 text-gray-700 text-lg pl-24">For Constractors and Suppliers</p>
-          <h1 class="flex-1 font-bold text-black text-3xl my-8 text-start pl-24">Always welcome to our team</h1>
-          <p class="text-start my-4 flex-1 text-gray-700 text-lg pl-24">At <span class="text-red-500 font-bold">Rinterio</span>, we believe that exceptional home design and construction are the results of strong,<br>
+          <h1 class="flex-1 font-bold text-black text-3xl sm:text-start sm:pl-24">Let's Be <span class="text-red-500">Partner</span> with <span class="text-red-500">Rinterio</span></h1>
+          <p class="sm:text-start my-4 flex-1 text-gray-700 text-lg sm:pl-24">For Constractors and Suppliers</p>
+          <h1 class="flex-1 w-[95%] sm:w-full font-bold text-black text-3xl my-8 sm:text-start sm:pl-24">Always welcome to our team</h1>
+          <p class="sm:text-start mx-6 my-4 flex-1 text-gray-700 text-lg sm:pl-24">At <span class="text-red-500 font-bold">Rinterio</span>, we believe that exceptional home design and construction are the results of strong,<br>
              collaborative partnerships. We work closely with a network of trusted architects,<br> designers, and builders to ensure every project reflects our commitment to quality and innovation. <br>
               By fostering open communication and combining our expertise with that of our partners, <br>we deliver customized solutions that exceed expectations. <br>
                Together, we turn your vision into reality,
@@ -530,7 +539,7 @@
 <div class="h-1"></div>
     <!-- beginning of form section -->
 
-    <div class="bg-no-repeat bg-cover relative" style="background-image: url(assets/bg.jpg );">
+    <div class="bg-no-repeat bg-cover relative bg-[url('assets/bg.jpg')]">
       <div class="absolute inset-0 bg-white bg-opacity-50"></div>
       <div class="container mx-auto pt-20 pb-20 text-center relative">
 
@@ -549,20 +558,20 @@
         </div>
 
 
-        <h1 class="py-6 text-3xl font-bold">
+        <h1 class="py-6 text-2xl sm:text-3xl font-bold">
           Let's Discuss Next Project
         </h1>
-        <p>
+        <p class=" text-sm mx-5 sm:mx-0 sm:text-lg">
           The barn house captivates with its blend of rustic charm and modern sophistication <br>
           featuring weathered wood, sleek metal accents. 
         </p>
 
-        <div class="grid grid-cols-2 grid-rows-5 gap-5 p-4 justify-around">
-          <input type="text" placeholder="First Name*" class="input  w-5/6 rounded-full p-7 border-none mx-auto">
-          <input type="text" placeholder="Last Name*" class="input  w-5/6 rounded-full p-7 border-none mx-auto">
-          <input type="text" placeholder="Last Name*" class="input  w-5/6 rounded-full p-7 border-none mx-auto">
-          <input type="text" placeholder="Last Name*" class="input  w-5/6 rounded-full p-7 border-none mx-auto">
-          <textarea name="" id="" placeholder="Write Your Message Here" class="textarea w-[91%] h-[] rounded-2xl col-span-2 row-span-3 mx-auto placeholder-top"></textarea  >
+        <div class="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-5 gap-5 p-4 justify-around">
+          <input type="text" placeholder="First Name*" class="input w-full  sm:w-5/6 rounded-full p-7 border-none mx-auto">
+          <input type="text" placeholder="Last Name*" class="input  w-full sm:w-5/6 rounded-full p-7 border-none mx-auto">
+          <input type="text" placeholder="Last Name*" class="input w-full sm:w-5/6 rounded-full p-7 border-none mx-auto">
+          <input type="text" placeholder="Last Name*" class="input  w-full sm:w-5/6 rounded-full p-7 border-none mx-auto">
+          <textarea name="" id="" placeholder="Write Your Message Here" class="textarea w-[100%] sm:w-[91%] h-[] rounded-2xl col-span-2 row-span-3 mx-auto placeholder-top"></textarea  >
 
         </div>
         <div class="mt-12 mb-12 text-center">
@@ -586,13 +595,13 @@
             <div class="">
               <div class="bg-black text-white p-4 text-center">
                 
-          <a class="btn btn-ghost text-[30px] font-bold text-white pt-20"><img class="w-10 h-10" src="assets/arrow.png"
+          <a class="btn btn-ghost text-[26px] sm:text-[30px] font-bold text-white pt-20"><img class="w-10 h-10" src="assets/arrow.png"
             alt="" />Rinterio</a>
               <p class="text-gray-500 p-5">The barn house captivates with its blend of rustic charm and modern sophistication,<br>
                 featuring weathered wood, sleek metal accents
               </p>
-              <div class="navbar container mx-auto justify-around text-gray-400  hidden lg:flex">
-                <ul class="menu menu-horizontal  text-[24px] gap-16">
+              <div class="navbar container mx-auto justify-around text-gray-400  flex lg:flex">
+                <ul class="menu menu-horizontal flex flex-col text-[20px] sm:flex-row sm:text-[24px] gap-10 sm:gap-16">
                   <li class="font-bold text-[20px]"><a>Home</a></li>
                   <li><a>Services</a></li>
                   <li><a>Portfolio</a></li>
